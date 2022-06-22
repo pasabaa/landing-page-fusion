@@ -1,0 +1,51 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+:root {
+    --color-primary:#244d61;
+    --color-secondary:#4885b2;
+    --color-blue:#81ced6;
+    --color-green:#90ff98;
+    --color-green-50:rgba(144, 255, 151, 0.1);
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-primary-variant {
+    color: var(--color-primary);
+}
+
+.text-secondary-variant {
+    color: var(--color-secondary);
+}
+
+.text-blue {
+    color: var(--color-blue);
+}
+
+.text-green {
+    color: var(--color-green);
+}
+
+.fs-sm {
+    font-size: .8rem;
+}
+
+.bg-blue {
+    background-color: var(--color-blue);
+}
+
+.bg-blue-50 {
+    --color-blue:rgba(129, 205, 214, 0.05);
+    background-color: var(--color-blue);
+}
+
+.bg-green-50 {
+
+    background-color: var(--color-green-50);
+}
