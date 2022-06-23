@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
 </head>
   <body>
     
@@ -14,22 +15,22 @@
         <nav class="navbar navbar-expand-lg p-4">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/"><img width="34" src="img/ISOTIPONEGRO.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button id="btn-menu" class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i id="icon-menu-toggle" class="h1 bi bi-list"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                            <a class="nav-link active" aria-current="page" href="#about">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Our Service</a>
+                            <a class="nav-link" href="#services">Our Service</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">The Team</a>
+                            <a class="nav-link" href="#team">The Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                     </ul>
                 </div>
@@ -38,8 +39,7 @@
     </div>
 
     <div class="container-fluid py-4 mt-4">
-
-        <div class="row justify-content-between align-items-center p-4">
+        <div class="row justify-content-between align-items-center p-4" id="about">
             <div class="col-lg-6 col-12 p-4" data-aos="fade-down">
                 <h1 class="display-2 fw-bold">We boost the growth for <span class="text-primary-variant">Startup</span> to Fortune 500 companies</h1>
                 <p class="text-muted w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores illum alias ratione modi, beatae numquam culpa fugiat iste? Aspernatur, doloremque.</p>
@@ -65,14 +65,14 @@
             </div>
         </div>
 
-        <div class="row p-4 justify-content-center mt-4">
+        <div class="row p-4 justify-content-center mt-4" id="services">
             <div class="col-lg-5 col-12 text-center p-4" data-aos="fade-down">
                 <h1 class="display-5 fw-bold">How can we help your business?</h1>
             </div>
             <div class="col-lg-10 col-12">
                 <div class="row py-4">
 
-                    <div class="col" data-aos="fade-down" data-aos-delay="100">
+                    <div class="col" data-aos="fade-down" data-aos-delay="150">
                         <div class="card border-0 bg-blue-50">
                             <div class="card-body">
                                 <i class="h2 bi bi-rulers text-green"></i>
@@ -92,7 +92,7 @@
                         </div>
                     </div>
 
-                    <div class="col" data-aos="fade-down" data-aos-delay="175">
+                    <div class="col" data-aos="fade-down" data-aos-delay="150">
                         <div class="card border-0 bg-blue-50">
                             <div class="card-body">
                                 <i class="h2 bi bi-globe text-green"></i>
@@ -102,7 +102,7 @@
                         </div>
                     </div>
 
-                    <div class="col" data-aos="fade-down" data-aos-delay="200">
+                    <div class="col" data-aos="fade-down" data-aos-delay="150">
                         <div class="card border-0 bg-blue-50">
                             <div class="card-body">
                                 <i class="h2 bi bi-clock-fill text-green"></i>
@@ -116,7 +116,7 @@
             </div>
         </div>
 
-        <div class="row bg-blue-50 p-4 justify-content-center">
+        <div class="row bg-blue-50 p-4 justify-content-center" id="team">
             <div class="col-12 p-4 text-center" data-aos="fade-down">
                 <h1 class="display-5 fw-bold">The <span class="text-primary-variant">Team</span></h1>
             </div>
